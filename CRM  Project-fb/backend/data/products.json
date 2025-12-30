@@ -1,0 +1,26 @@
+[
+    {
+        "name": "تمدید آنتی‌ویروس تک کاربره",
+        "price": 100000,
+        "days_condition": 30,
+        "keyword": "nod"
+    },
+    {
+        "name": "تمدید آنتی‌ویروس دو کاربره",
+        "price": 200000,
+        "days_condition": 30,
+        "keyword": "nod"
+    },
+    {
+        "name": "تمدید گارانتی ",
+        "price": 1500000,
+        "days_condition": 150,
+        "keyword": ""
+    },
+    {
+        "name": "nod",
+        "price": 150000,
+        "days_condition": 0,
+        "keyword": ""
+    }
+]
