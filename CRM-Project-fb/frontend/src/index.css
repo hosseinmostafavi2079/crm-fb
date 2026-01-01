@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* تنظیم جهت راست‌چین برای کل سایت */
+body {
+  direction: rtl;
+  background-color: #f3f4f6;
+  font-family: 'Tahoma', sans-serif;
+}
