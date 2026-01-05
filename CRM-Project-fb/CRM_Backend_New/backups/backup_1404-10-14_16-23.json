@@ -1,0 +1,575 @@
+[
+{
+  "model": "core.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$L9ERPrmOXQBFSWKS4W1NJF$CYryWSX9vKb7azkgKOXuBAC3G5EpcPVk/w9Av5A/x84=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-12-31T05:53:15.131Z",
+    "phone": "",
+    "is_customer": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.customer",
+  "pk": 1,
+  "fields": {
+    "name": "آقای میرعباسی",
+    "phone": "9133332553",
+    "created_at": "2025-12-31T05:53:48.394Z",
+    "description": ""
+  }
+},
+{
+  "model": "core.customer",
+  "pk": 2,
+  "fields": {
+    "name": "آقای رستمیان",
+    "phone": "9134412229",
+    "created_at": "2025-12-31T05:53:48.428Z",
+    "description": ""
+  }
+},
+{
+  "model": "core.customer",
+  "pk": 3,
+  "fields": {
+    "name": "آقای شهبازی",
+    "phone": "9135579187",
+    "created_at": "2025-12-31T05:53:48.446Z",
+    "description": ""
+  }
+},
+{
+  "model": "core.customer",
+  "pk": 4,
+  "fields": {
+    "name": "آقای موسوی",
+    "phone": "9138779106",
+    "created_at": "2025-12-31T05:53:48.459Z",
+    "description": ""
+  }
+},
+{
+  "model": "core.customer",
+  "pk": 5,
+  "fields": {
+    "name": "آقای حبیبی",
+    "phone": "9139207779",
+    "created_at": "2025-12-31T05:53:48.472Z",
+    "description": ""
+  }
+},
+{
+  "model": "core.customer",
+  "pk": 6,
+  "fields": {
+    "name": "خانم نیلی",
+    "phone": "9171124785",
+    "created_at": "2025-12-31T05:53:48.489Z",
+    "description": ""
+  }
+},
+{
+  "model": "core.customer",
+  "pk": 7,
+  "fields": {
+    "name": "آقای محمد باقر قاسمی",
+    "phone": "9901221942",
+    "created_at": "2025-12-31T05:53:48.501Z",
+    "description": ""
+  }
+},
+{
+  "model": "core.customer",
+  "pk": 8,
+  "fields": {
+    "name": "اقای مجتبی صغیری",
+    "phone": "9902856281",
+    "created_at": "2025-12-31T05:53:48.517Z",
+    "description": ""
+  }
+},
+{
+  "model": "core.customer",
+  "pk": 10,
+  "fields": {
+    "name": "سارا حقیقی",
+    "phone": "09130000000",
+    "created_at": "2025-12-31T06:41:14.393Z",
+    "description": ""
+  }
+},
+{
+  "model": "core.device",
+  "pk": 1,
+  "fields": {
+    "customer": 1,
+    "device_name": "ACER",
+    "model": "A315-59",
+    "serial": "NXK6TEM00542312EAB3400",
+    "description": "",
+    "warranty_name": "سازگار",
+    "warranty_end": "2026-11-21",
+    "buy_date": "2025-12-31T05:53:48.404Z",
+    "exit_date": "2024-11-20",
+    "has_windows": true,
+    "antivirus_type": "none",
+    "antivirus_expiry": null
+  }
+},
+{
+  "model": "core.device",
+  "pk": 2,
+  "fields": {
+    "customer": 1,
+    "device_name": "ACER",
+    "model": "A315-59",
+    "serial": "NXK6TEM0054241078F3400",
+    "description": "",
+    "warranty_name": "سازگار",
+    "warranty_end": "2026-11-27",
+    "buy_date": "2025-12-31T05:53:48.414Z",
+    "exit_date": "2024-11-26",
+    "has_windows": true,
+    "antivirus_type": "none",
+    "antivirus_expiry": null
+  }
+},
+{
+  "model": "core.device",
+  "pk": 3,
+  "fields": {
+    "customer": 1,
+    "device_name": "ACER",
+    "model": "A315-59",
+    "serial": "NXK6TEM00542312EA83400",
+    "description": "",
+    "warranty_name": "سازگار",
+    "warranty_end": "2026-11-21",
+    "buy_date": "2025-12-31T05:53:48.419Z",
+    "exit_date": "2024-11-20",
+    "has_windows": true,
+    "antivirus_type": "none",
+    "antivirus_expiry": null
+  }
+},
+{
+  "model": "core.device",
+  "pk": 4,
+  "fields": {
+    "customer": 1,
+    "device_name": "ACER",
+    "model": "A315-59",
+    "serial": "NXK6TEM00542312D953400",
+    "description": "",
+    "warranty_name": "سازگار",
+    "warranty_end": "2026-11-21",
+    "buy_date": "2025-12-31T05:53:48.424Z",
+    "exit_date": "2024-11-20",
+    "has_windows": true,
+    "antivirus_type": "none",
+    "antivirus_expiry": null
+  }
+},
+{
+  "model": "core.device",
+  "pk": 5,
+  "fields": {
+    "customer": 2,
+    "device_name": "acer",
+    "model": "predator",
+    "serial": "NHQRFEM003434097513400",
+    "description": "",
+    "warranty_name": "سازگار",
+    "warranty_end": "2026-12-18",
+    "buy_date": "2025-12-31T05:53:48.431Z",
+    "exit_date": "2024-12-17",
+    "has_windows": true,
+    "antivirus_type": "none",
+    "antivirus_expiry": null
+  }
+},
+{
+  "model": "core.device",
+  "pk": 6,
+  "fields": {
+    "customer": 2,
+    "device_name": "ACER",
+    "model": "HELIOS NEO 16",
+    "serial": "NHQREEM001425116263400",
+    "description": "",
+    "warranty_name": "سازگار",
+    "warranty_end": "2027-01-20",
+    "buy_date": "2025-12-31T05:53:48.436Z",
+    "exit_date": "2025-01-19",
+    "has_windows": true,
+    "antivirus_type": "none",
+    "antivirus_expiry": null
+  }
+},
+{
+  "model": "core.device",
+  "pk": 7,
+  "fields": {
+    "customer": 2,
+    "device_name": "ASUS",
+    "model": "B3402FB",
+    "serial": "S2NXLP00866805C",
+    "description": "",
+    "warranty_name": "همتا سرویس فرتاک",
+    "warranty_end": "2026-07-31",
+    "buy_date": "2025-12-31T05:53:48.441Z",
+    "exit_date": "2025-02-06",
+    "has_windows": true,
+    "antivirus_type": "single",
+    "antivirus_expiry": "2026-02-06"
+  }
+},
+{
+  "model": "core.device",
+  "pk": 8,
+  "fields": {
+    "customer": 3,
+    "device_name": "LENOVO",
+    "model": "LOQ",
+    "serial": "SMP2MBSW7",
+    "description": "",
+    "warranty_name": "سازگار",
+    "warranty_end": "2026-07-15",
+    "buy_date": "2025-12-31T05:53:48.450Z",
+    "exit_date": "2024-07-14",
+    "has_windows": true,
+    "antivirus_type": "single",
+    "antivirus_expiry": "2025-07-14"
+  }
+},
+{
+  "model": "core.device",
+  "pk": 9,
+  "fields": {
+    "customer": 3,
+    "device_name": "LENOVO",
+    "model": "LOQ",
+    "serial": "SMP2MBSTR",
+    "description": "",
+    "warranty_name": "سازگار",
+    "warranty_end": "2026-07-15",
+    "buy_date": "2025-12-31T05:53:48.455Z",
+    "exit_date": "2024-07-14",
+    "has_windows": true,
+    "antivirus_type": "none",
+    "antivirus_expiry": null
+  }
+},
+{
+  "model": "core.device",
+  "pk": 10,
+  "fields": {
+    "customer": 4,
+    "device_name": "msi",
+    "model": "ALL IN ONE AM242",
+    "serial": "MSAE0711N6001808",
+    "description": "",
+    "warranty_name": "ماتریس",
+    "warranty_end": "2025-12-28",
+    "buy_date": "2025-12-31T05:53:48.462Z",
+    "exit_date": "2024-10-20",
+    "has_windows": false,
+    "antivirus_type": "none",
+    "antivirus_expiry": null
+  }
+},
+{
+  "model": "core.device",
+  "pk": 11,
+  "fields": {
+    "customer": 4,
+    "device_name": "msi",
+    "model": "ALL IN ONE AM242",
+    "serial": "MSAE0711N6001815",
+    "description": "",
+    "warranty_name": "ماتریس",
+    "warranty_end": "2025-12-28",
+    "buy_date": "2025-12-31T05:53:48.467Z",
+    "exit_date": "2024-10-20",
+    "has_windows": false,
+    "antivirus_type": "none",
+    "antivirus_expiry": null
+  }
+},
+{
+  "model": "core.device",
+  "pk": 12,
+  "fields": {
+    "customer": 5,
+    "device_name": "asus",
+    "model": "x1504",
+    "serial": "S5N0CV00S289189",
+    "description": "",
+    "warranty_name": "اندیشه ماندگار اطلس",
+    "warranty_end": "2026-03-19",
+    "buy_date": "2025-12-31T05:53:48.475Z",
+    "exit_date": "2024-10-01",
+    "has_windows": true,
+    "antivirus_type": "single",
+    "antivirus_expiry": "2025-10-01"
+  }
+},
+{
+  "model": "core.device",
+  "pk": 13,
+  "fields": {
+    "customer": 5,
+    "device_name": "lenovo",
+    "model": "V15 G4",
+    "serial": "SPF51QPB1",
+    "description": "",
+    "warranty_name": "آیده آل",
+    "warranty_end": "2026-06-09",
+    "buy_date": "2025-12-31T05:53:48.480Z",
+    "exit_date": "2025-01-01",
+    "has_windows": false,
+    "antivirus_type": "none",
+    "antivirus_expiry": null
+  }
+},
+{
+  "model": "core.device",
+  "pk": 14,
+  "fields": {
+    "customer": 5,
+    "device_name": "ASUS",
+    "model": "F1504",
+    "serial": "S3N0CV043296107",
+    "description": "",
+    "warranty_name": "HAMI",
+    "warranty_end": "2026-10-02",
+    "buy_date": "2025-12-31T05:53:48.484Z",
+    "exit_date": "2024-10-01",
+    "has_windows": true,
+    "antivirus_type": "none",
+    "antivirus_expiry": null
+  }
+},
+{
+  "model": "core.device",
+  "pk": 15,
+  "fields": {
+    "customer": 6,
+    "device_name": "acer",
+    "model": "HELIOS NEO 16",
+    "serial": "NHQLVEM00834712C797600",
+    "description": "",
+    "warranty_name": "سازگار",
+    "warranty_end": "2026-08-16",
+    "buy_date": "2025-12-31T05:53:48.492Z",
+    "exit_date": "2024-08-15",
+    "has_windows": true,
+    "antivirus_type": "single",
+    "antivirus_expiry": "2025-08-15"
+  }
+},
+{
+  "model": "core.device",
+  "pk": 16,
+  "fields": {
+    "customer": 6,
+    "device_name": "LENOVO",
+    "model": "LOQ 83DV",
+    "serial": "MP2Z06CL",
+    "description": "",
+    "warranty_name": "سازگار",
+    "warranty_end": "2027-02-24",
+    "buy_date": "2025-12-31T05:53:48.497Z",
+    "exit_date": "2025-02-23",
+    "has_windows": true,
+    "antivirus_type": "none",
+    "antivirus_expiry": null
+  }
+},
+{
+  "model": "core.device",
+  "pk": 17,
+  "fields": {
+    "customer": 7,
+    "device_name": "ACER",
+    "model": "AL16-51P",
+    "serial": "NXKWZEM001413041B34500",
+    "description": "",
+    "warranty_name": "اندیشه ماندگار اطلس",
+    "warranty_end": "2026-02-10",
+    "buy_date": "2025-12-31T05:53:48.505Z",
+    "exit_date": "2024-09-10",
+    "has_windows": true,
+    "antivirus_type": "none",
+    "antivirus_expiry": null
+  }
+},
+{
+  "model": "core.device",
+  "pk": 18,
+  "fields": {
+    "customer": 7,
+    "device_name": "ACER",
+    "model": "AL16-51P",
+    "serial": "NXKWZEM0014130418A4500",
+    "description": "",
+    "warranty_name": "اندیشه ماندگار اطلس",
+    "warranty_end": "2026-02-10",
+    "buy_date": "2025-12-31T05:53:48.510Z",
+    "exit_date": "2024-09-10",
+    "has_windows": true,
+    "antivirus_type": "none",
+    "antivirus_expiry": null
+  }
+},
+{
+  "model": "core.device",
+  "pk": 19,
+  "fields": {
+    "customer": 8,
+    "device_name": "ACER",
+    "model": "AL16-52P",
+    "serial": "NXJ5REM00144404E484500",
+    "description": "",
+    "warranty_name": "سازگار",
+    "warranty_end": "2027-02-19",
+    "buy_date": "2025-12-31T05:53:48.522Z",
+    "exit_date": "2025-02-18",
+    "has_windows": true,
+    "antivirus_type": "none",
+    "antivirus_expiry": null
+  }
+},
+{
+  "model": "core.device",
+  "pk": 20,
+  "fields": {
+    "customer": 8,
+    "device_name": "LENOVO",
+    "model": "V15-G4",
+    "serial": "SPF51BKTP",
+    "description": "",
+    "warranty_name": "تات",
+    "warranty_end": "2026-07-15",
+    "buy_date": "2025-12-31T05:53:48.529Z",
+    "exit_date": "2025-02-18",
+    "has_windows": true,
+    "antivirus_type": "none",
+    "antivirus_expiry": null
+  }
+},
+{
+  "model": "core.device",
+  "pk": 23,
+  "fields": {
+    "customer": 10,
+    "device_name": "Lenovo",
+    "model": "loq",
+    "serial": "sne1233412",
+    "description": "نصب نرم افزار ",
+    "warranty_name": "آواژنگ",
+    "warranty_end": "2026-12-19",
+    "buy_date": "2025-12-31T06:41:14.409Z",
+    "exit_date": "2024-12-29",
+    "has_windows": true,
+    "antivirus_type": "single",
+    "antivirus_expiry": "2025-12-29"
+  }
+},
+{
+  "model": "core.device",
+  "pk": 24,
+  "fields": {
+    "customer": 10,
+    "device_name": "Apple",
+    "model": "mac",
+    "serial": "qwe123",
+    "description": "نصب فتوشاپ",
+    "warranty_name": "سازگار",
+    "warranty_end": "2025-12-31",
+    "buy_date": "2025-12-31T07:19:19.465Z",
+    "exit_date": "2025-09-28",
+    "has_windows": false,
+    "antivirus_type": "none",
+    "antivirus_expiry": null
+  }
+},
+{
+  "model": "core.device",
+  "pk": 25,
+  "fields": {
+    "customer": 10,
+    "device_name": "Samsung",
+    "model": "galexy",
+    "serial": "qweqer1344213",
+    "description": "نوتپد 2",
+    "warranty_name": "سازگار",
+    "warranty_end": "2027-06-24",
+    "buy_date": "2025-12-31T07:20:32.786Z",
+    "exit_date": "2025-12-31",
+    "has_windows": true,
+    "antivirus_type": "none",
+    "antivirus_expiry": null
+  }
+},
+{
+  "model": "core.device",
+  "pk": 26,
+  "fields": {
+    "customer": 10,
+    "device_name": "HP",
+    "model": "omen",
+    "serial": "sn12312316890",
+    "description": "نصف Vs",
+    "warranty_name": "سازگار",
+    "warranty_end": "2026-01-26",
+    "buy_date": "2026-01-01T05:27:56.682Z",
+    "exit_date": "2025-07-30",
+    "has_windows": true,
+    "antivirus_type": "single",
+    "antivirus_expiry": "2026-07-30"
+  }
+},
+{
+  "model": "core.smstemplate",
+  "pk": 1,
+  "fields": {
+    "title": "انتی",
+    "text": "جناب اقای / سرکا خانم {name} انتی ویروس دستگاه شما رو به اتمام است جهت تمدمد با ما تماس بگیرید",
+    "created_at": "2025-12-31T12:53:37.093Z"
+  }
+},
+{
+  "model": "core.notificationrule",
+  "pk": 1,
+  "fields": {
+    "title": "انتی یه هفته",
+    "days_before": 7,
+    "service_type": "antivirus",
+    "template": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "core.systemconfig",
+  "pk": 1,
+  "fields": {
+    "sms_provider": "کاوه نگار",
+    "sms_api_key": "686F72767535666A6C6866386771446E5A476567464E4D70396F34344C542F752B554F32415A54516B526B3D",
+    "sms_line_number": "10004000700800",
+    "backup_frequency": "daily",
+    "backup_retention_count": 5,
+    "last_backup_at": "2026-01-04T12:41:29.854Z"
+  }
+}

@@ -1,0 +1,1 @@
+export default function CustomerPortal() { return <div className="p-10 font-bold text-gray-400">پنل مشتریان</div>; }
